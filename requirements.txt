@@ -1,6 +1,6 @@
-# Core libraries
-pandas==2.2.2
-numpy==1.26.4
+# Core libraries (use pre-Meson versions)
+numpy==1.24.4
+pandas==2.0.3
 requests==2.31.0
 
 # Visualization
@@ -12,7 +12,7 @@ scikit-learn==1.4.2
 xgboost==2.0.3
 lightgbm==4.3.0
 
-# Jupyter
+# Jupyter environment
 jupyterlab==4.2.1
 notebook==7.2.0
 ipykernel==6.29.4
