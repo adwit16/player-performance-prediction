@@ -1,5 +1,42 @@
+# Python cache files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# macOS system file
 .DS_Store
+
+# Virtual environment
+venv/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings (optional, if you're sharing your project)
+.vscode/
+
+# Environment and config
+.env
+*.env
+
+# Data folders
 data/raw/*
+!data/raw/.gitkeep    # Allow empty folder tracking
+data/external/*
+!data/external/.gitkeep
+
+# Model files
 models/*
+!models/.gitkeep
+
+# Figures and reports (optional)
+reports/figures/*
+!reports/figures/.gitkeep
+
+# Logs
+*.log
+
+# OS-specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
