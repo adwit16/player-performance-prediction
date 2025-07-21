@@ -23,7 +23,7 @@ def main():
     data = load_json(RAW_DATA_PATH)
 
     print("Processing elements (players)...")
-    elements_df = process_and_save(data, "elements", "elements.csv")
+    elements_df = process_and_save(data, "elements", "players.csv")
 
     print("Processing teams...")
     teams_df = process_and_save(data, "teams", "teams.csv")
