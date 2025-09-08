@@ -20,3 +20,9 @@ ipykernel==6.29.4
 # Utility
 tqdm==4.66.4
 python-dotenv==1.0.1
+
+# Optimization
+pulp==2.7.0
+
+# Dashboard
+streamlit==1.36.0
